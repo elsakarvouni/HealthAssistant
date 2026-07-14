@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/outline_clinical_notes_24" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/med_time"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/txtAlarmMedicineName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ΟΝΟΜΑ ΦΑΡΜΑΚΟΥ"
+        android:textSize="40sp"
+        android:textColor="#2196F3"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="50dp"/>
+
+    <Button
+        android:id="@+id/btnTookIt"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="@string/took_it"
+        android:textSize="24sp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnSnooze"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="@string/snooze"
+        android:textSize="24sp"
+        android:backgroundTint="#FF9800"/>
+</LinearLayout>

@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">MedMinder</string>
+    <string name="add_new">Add New Medication</string>
+    <string name="delete_confirm">Are you sure you want to delete </string>
+    <string name="settings">Settings</string>
+    <string name="font_sizes">Font size</string>
+    <string name="next_med">Next Medication:</string>
+    <string name="display">Display</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="notifications">Notifications</string>
+    <string name="about">About this application</string>
+    <string name="choose">Choose medication</string>
+    <string name="med_name">Name</string>
+    <string name="description">Description</string>
+    <string name="exp_date">Expiry date</string>
+    <string name="hours">Hours (long press to clear)</string>
+    <string name="notes">Notes</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="program">Daily Program</string>
+    <string name="btn_add">Addition</string>
+    <string name="medical_icon">Medicine icon</string>
+    <string name="infotext">MedMinder v1.31\nCreated by E. Karvouni, K. Pilateris, F. Taramopoulou.\nCopyright ®2026</string>
+    <string name="push_twice">Press again to exit</string>
+    <string name="mode_change">The change will take effect in the next screen</string>
+    <string name="no_more_meds">No more medication for today</string>
+    <string name="hours_cleared">Hours cleared</string>
+    <string name="name_inp_error">Name is obligatory</string>
+    <string name="hour_inp_error">At least an hour must be inserted</string>
+    <string name="expdate_inp_error">Please insert an expiry date</string>
+    <string name="update_success">Updated successfully</string>
+    <string name="delete_question">Do you want to delete </string>
+    <string name="questionmark">\?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="snooze">Snooze</string>
+    <string name="took_it">Took it</string>
+    <string name="snooze_duration">Snooze Duration</string>
+    <string name="emergency_contact">Emergency Contact (Phone)</string>
+    <string name="start_date">Start Date</string>
+    <string name="med_deleted">Medication successfully deleted</string>
+    <string name="med_not_found">Medication was not found</string>
+    <string name="med_time">Time for your medication!</string>
+    <string name="med_need">You need to take medication: </string>
+    <string name="med_set">Medication and reminders set!</string>
+    <string-array name="priority_options">
+        <item>No sound, no popup</item>
+        <item>With sound, no popup</item>
+        <item>With sound and popup</item>
+    </string-array>
+    <string-array name="font_size_options">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+
+
+
+
+</resources>

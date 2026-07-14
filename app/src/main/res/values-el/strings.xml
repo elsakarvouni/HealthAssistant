@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">MedMinder</string>
+    <string name="add_new">Προσθήκη Νέου Φαρμάκου</string>
+    <string name="delete_confirm">Είστε σίγουροι για τη διαγραφή του </string>
+    <string name="settings">Ρυθμίσεις</string>
+    <string name="font_sizes">Μέγεθος γραμματοσειράς</string>
+    <string name="next_med">Επόμενο φάρμακο:</string>
+    <string name="display">Εμφάνιση</string>
+    <string name="dark_mode">Σκοτεινό</string>
+    <string name="notifications">Ειδοποιήσεις</string>
+    <string name="about">Πληροφορίες Για Την Εφαρμογή</string>
+    <string name="choose">Επιλέξτε φάρμακο</string>
+    <string name="med_name">Όνομα</string>
+    <string name="description">Περιγραφή</string>
+    <string name="exp_date">Ημερομηνία λήξης</string>
+    <string name="hours">Ώρες (παρατεταμένη πίεση για καθαρισμό)</string>
+    <string name="notes">Παρατηρήσεις</string>
+    <string name="update">Ενημέρωση</string>
+    <string name="delete">Διαγραφή</string>
+    <string name="program">Ημερήσιο Πρόγραμμα</string>
+    <string name="btn_add">Προσθήκη</string>
+    <string name="medical_icon">Εικόνα φαρμάκου</string>
+    <string name="infotext">MedMinder v1.31 \nΔημιουργοί Ε. Καρβούνη, Κ. Πιλατέρης, Φ. Ταραμοπούλου\nCopyright ®2026</string>
+    <string name="push_twice">Πιέστε ξανά για έξοδο</string>
+    <string name="mode_change">Η αλλαγή θα ισχύσει από την επόμενη οθόνη</string>
+    <string name="no_more_meds">Δεν υπάρχουν άλλα φάρμακα για σήμερα</string>
+    <string name="hours_cleared">Οι ώρες καθαρίστηκαν</string>
+    <string name="name_inp_error">Το όνομα είναι υποχρεωτικό</string>
+    <string name="hour_inp_error">Πρέπει να εισαχθεί τουλάχιστον μία ώρα</string>
+    <string name="expdate_inp_error">Παρακαλώ εισάγετε ημερομηνία λήξης</string>
+    <string name="update_success">Επιτυχής ενημέρωση</string>
+    <string name="delete_question">Θέλετε να διαγράψετε το </string>
+    <string name="questionmark">;</string>
+    <string name="snooze_duration">Χρόνος Αναβολής</string>
+    <string name="emergency_contact">Επαφή Έκτακτης Ανάγκης (Τηλέφωνο)</string>
+    <string name="start_date">Ημερομηνία Έναρξης</string>
+    <string name="yes">Ναι</string>
+    <string name="snooze">Αναβολή</string>
+    <string name="took_it">Το πήρα</string>
+    <string name="no">Όχι</string>
+    <string name="med_deleted">Το φάρμακο διαγράφηκε επιτυχώς</string>
+    <string name="med_not_found">Το φάρμακο δε βρέθηκε</string>
+    <string name="med_time">Ώρα για το φάρμακό σας</string>
+    <string name="med_need">Πρέπει να πάρετε το φάρμακο: </string>
+    <string name="med_set">Τα φάρμακα και οι υπενθυμίσεις ορίστηκαν!</string>
+    <string-array name="priority_options">
+        <item>Χωρίς ήχο, χωρίς αναδυόμενο παράθυρο</item>
+        <item>Με ήχο, χωρίς αναδυόμενο παράθυρο</item>
+        <item>Με ήχο και αναδυόμενο παράθυρο</item>
+    </string-array>
+    <string-array name="font_size_options">
+        <item>Μικρό</item>
+        <item>Μεσαίο</item>
+        <item>Μεγάλο</item>
+    </string-array>
+
+
+
+</resources>

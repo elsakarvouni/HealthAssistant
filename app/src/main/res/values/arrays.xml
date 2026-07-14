@@ -1,0 +1,4 @@
+<resources>
+    <string-array name="font_sizes">
+        <item>Normal</item><item>Large</item></string-array>
+</resources>

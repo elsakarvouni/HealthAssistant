@@ -1,0 +1,4 @@
+<resources>
+    <string-array name="font_sizes">
+        <item>Κανονικό</item><item>Μεγάλο</item></string-array>
+</resources>

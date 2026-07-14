@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditAppointmentActivity">
+
+    <include
+        android:id="@+id/myHeader"
+        layout="@layout/layout_header" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintTop_toBottomOf="@+id/myHeader"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavLayout">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/lblSelectApp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:text="Επιλέξτε ραντεβού για επεξεργασία:"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Spinner
+                android:id="@+id/spnAppointments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                app:layout_constraintTop_toBottomOf="@id/lblSelectApp" />
+
+            <TextView
+                android:id="@+id/lblDocNameTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Όνομα Γιατρού:"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                app:layout_constraintTop_toBottomOf="@id/spnAppointments"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <EditText
+                android:id="@+id/editDocName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Όνομα Γιατρού"
+                android:layout_marginTop="2dp"
+                app:layout_constraintTop_toBottomOf="@id/lblDocNameTitle" />
+
+            <TextView
+                android:id="@+id/lblSpecialtyTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:text="Ειδικότητα Γιατρού:"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                app:layout_constraintTop_toBottomOf="@id/editDocName"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <EditText
+                android:id="@+id/editSpecialty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ειδικότητα"
+                android:layout_marginTop="2dp"
+                app:layout_constraintTop_toBottomOf="@id/lblSpecialtyTitle" />
+
+            <TextView
+                android:id="@+id/lblAppDateTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:text="Ημερομηνία Ραντεβού:"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                app:layout_constraintTop_toBottomOf="@id/editSpecialty"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <EditText
+                android:id="@+id/editAppDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ημερομηνία"
+                android:focusable="false"
+                android:clickable="true"
+                android:layout_marginTop="2dp"
+                app:layout_constraintTop_toBottomOf="@id/lblAppDateTitle" />
+
+            <TextView
+                android:id="@+id/lblAppTimeTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:text="Ώρα Ραντεβού:"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                app:layout_constraintTop_toBottomOf="@id/editAppDate"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <EditText
+                android:id="@+id/editAppTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ώρα"
+                android:focusable="false"
+                android:clickable="true"
+                android:layout_marginTop="2dp"
+                app:layout_constraintTop_toBottomOf="@id/lblAppTimeTitle" />
+
+            <TextView
+                android:id="@+id/lblDocPhoneTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:text="Τηλέφωνο Γιατρού:"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                app:layout_constraintTop_toBottomOf="@id/editAppTime"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <EditText
+                android:id="@+id/editDocPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Τηλέφωνο"
+                android:inputType="phone"
+                android:layout_marginTop="2dp"
+                app:layout_constraintTop_toBottomOf="@id/lblDocPhoneTitle" />
+
+            <Button
+                android:id="@+id/btnUpdateAppointment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ενημέρωση"
+                android:backgroundTint="#4CAF50"
+                android:layout_marginTop="28dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                app:layout_constraintTop_toBottomOf="@id/editDocPhone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <Button
+                android:id="@+id/btnDeleteAppointment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Διαγραφή"
+                android:backgroundTint="#F44336"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                app:layout_constraintTop_toBottomOf="@id/btnUpdateAppointment"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/bottomNavLayout"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="#EEEEEE"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <ImageButton
+            android:id="@+id/navEdit"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackground"
+            android:src="@android:drawable/ic_menu_edit" />
+
+        <ImageButton
+            android:id="@+id/navHome"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackground"
+            android:src="@android:drawable/ic_menu_today" />
+
+        <ImageButton
+            android:id="@+id/navCalendar"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackground"
+            android:src="@android:drawable/ic_menu_my_calendar" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

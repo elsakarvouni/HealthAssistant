@@ -33,4 +33,7 @@ The application follows the classic Android SDK development pattern, strictly se
 * **Foteini Taramopoulou**
 * **Konstantinos Pilateris** 
 
+## 🎥 DEMO!
+[Tap here to see the demo of MedMinder app on YouTube](https://youtube.com/shorts/NPOtZIEDq-E?feature=share)
+
 *Note: The team collaborated closely to perfect all application functions and produce the project documentation and demo video.*
